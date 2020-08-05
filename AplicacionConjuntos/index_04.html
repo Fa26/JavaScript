@@ -1,0 +1,420 @@
+<!--
+    Venegas Guerreo Fatima Alejandra
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Diagramas de Venn</title>
+  <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="stylesheet" href="stiloo.css" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two" rel="stylesheet"> 
+
+<!--JavaScript-->
+  <script type="text/javascript" src="Main2.js"></script>
+ 
+</head>
+
+<body>
+        
+    <div id= "contenedor">
+            
+         <!-- Menu superior -->   
+        <div  id="menuSuperior">
+                <a href="#" class="desactive">Teoria de Conjuntos</a>
+                <a href="#" id="inicio">Inicio</a>
+                <a href="#" id="motivacion">Motivacion</a>
+                <a href="#" id="desarrollo">Desarrollo</a>
+                <a href="#" id="cierre_0">Cierre</a>
+        </div>
+
+        <!-- Menu inferior (barra lateral izquierda)-->
+        <div  id="menuInferior">
+        
+            <i id="casa" class="material-icons"  style="font-size:36px; color: white; text-shadow:2px 2px 4px rgb(56, 36, 141)">home</i>     
+            <!---
+            <i id ="atras"class="material-icons" style="font-size:36px; color:white; text-shadow:2px 2px 4px #ecdfdf">keyboard_arrow_left</i>
+            <i id="adelante"class="material-icons" style="font-size:36px;  color:white; text-shadow:2px 2px 4px #ecdfdf">chevron_right</i>
+            -->  
+        </div>
+        
+        <!--Portada de la aplicacion -->
+        <div id="principal_0">
+        <h1 id="tituloP">Diagramas de Venn</h1>
+        </div>
+        
+        
+        <!-- Inicio de la primera seccion de Inicio-->
+        <div id="inicio_0">
+            <div id="inicio_1">
+            <div id="informacion"></div>
+            <h1 id="tituloI"></h1>
+             <button id="Si0">
+                     <i id="adelante"class="material-icons" style="font-size:26px;  color:white; ">chevron_right</i>
+             </button>
+            
+            <div id= "panel">
+            <h1 id="anuncio"> Conjunto Universal </h1>
+         
+
+        <div id="cajaUniversal">
+            <div class="circulo"  ></div>
+            <div class="circulo2"></div>
+
+             <div class="cuadrado">
+                 <p id="A">A</p>
+                 <p id="B">B</p>
+                <div id="cI"></div>
+                <div id="cC"></div>
+               <div id="cD"></div>
+                </div>
+            
+        </div>
+            
+        
+            <img id ="uno" src="img/numerosC.jpg" class="tamanio" draggable="true">
+           <img src="img/dos.jpg" id="dos"class="tamanio" draggable="true">
+           <img src="img/siete.jpg" id="siete"class="tamanio" draggable="true">
+           <img src="img/tres.jpg" id="tres"class="tamanio" draggable="true">
+           <img src="img/cuatro.jpg" id="cuatro"class="tamanio" draggable="true"> 
+           <img src="img/cinco.jpg" id="cinco"class="tamanio" draggable="true">
+           <img src="img/seis.jpg" id="seis"class="tamanio" draggable="true">
+           <img src="img/cero.jpg" id="cero"class="tamanio" draggable="true">
+           <img src="img/ocho.jpg" id="ocho"class="tamanio" draggable="true">
+           <img src="img/nueve.jpg" id="nueve"class="tamanio" draggable="true">
+
+          </div>  
+       </div>
+    </div>
+
+    <!-- Inicio de la seccion 2 de Inicio-->
+    <div id="inicio_2"> 
+        <h1 id="ti2">Ley de DeMorgan para el complemento de la interseccion</h1>
+
+        <button id="reI2" class="esR">
+            <i id ="atras"class="material-icons" style="font-size:26px; color: white">keyboard_arrow_left</i>
+        </button>
+
+        <div id="i2panel"></div>
+        <div id="paI2"></div>
+        <button id="unir" class="stiloB"> Unir</button>
+        <button id="regresa" class="stiloB">Regresar</button>
+        <div id="paI3">     
+            <div id="img1"></div>
+            <div id="img2"></div>  
+        </div>
+
+        <button id="Si02" class="es">
+                <i id="adelante"class="material-icons" style="font-size:26px;  color:white; ">chevron_right</i>
+        </button>
+    </div>
+
+    <!-- Inicio de la seccion 3 de Inicio-->
+    <div id="inicio_3">
+        <h1 id="titl3">Ley de DeMorgan para el complemento de la union</h1>
+        <button id="reI3" class="esR">
+            <i id ="atras"class="material-icons" style="font-size:26px; color: white">keyboard_arrow_left</i>
+        </button>
+
+        <div id="p3_1"></div>
+        <button id="une3" class="stiloB" > Intersectar </button>
+        <button id="re3" class="stiloB"> Regresar</button>
+        <div id="p3_2">
+            <div id="img1_3"></div>
+            <div id="img2_3"></div>
+        </div> 
+    </div>
+
+        
+     <!-- Inicio de la seccion 1 de Desarrollo-->   
+        <div id="desarrollo_1">
+            <h1 id="titulo"></h1>
+            <div id="info"></div>
+            <div id="imagenes">
+                <canvas id="miCanvas"></canvas> 
+            </div>
+            <div id="opciones">
+                    <i  id="op1">
+                        <img src="img/vacio_2.png" class="tamCe tamP">
+                    </i>
+                    <i id="op2" >
+                        <img src="img/inter2.png" class="tam tamP">
+                    </i>
+                    <i id="op3">
+                        <img src="img/union2.png" class=" tamU tamP">
+                    </i>
+                    <i id="op4">
+                        <img src="img/unionC2.png" class="tamC tamP">
+
+                    </i>
+                    <i id="op5">
+                            <img src="img/interCo2.png" class="tamC2 tamP">
+    
+                    </i>
+                    <i id="op6" > 
+                            <img src="img/univer2.png" class="tamUni tamP">
+
+                    </i>
+                    <i id="op7">
+                            <img src="img/aC.png" class="tam7 tamP">
+    
+                    </i>
+                    <i id="op8">
+                            <img src="img/AcIB.png" class="tam8 tamP">
+    
+                    </i>
+                    <i id="op9">
+                            <img src="img/op8.png" class="tam9 tamP">
+    
+                    </i>
+                    <i id="op10">
+                            <img src="img/a10.png" class="tam10 tamP">
+    
+                    </i>
+                    <i id="op11">
+                            <img src="img/b11.png" class="tam11 tamP tam">
+    
+                    </i>
+                    <i id="op12">
+                            <img src="img/op11.png" class="tam11 tamL tamU">
+    
+                    </i>
+                    <i id="op13">
+                            <img src="img/bC13.png" class="tam11 tamP tamC2 ">
+    
+                    </i>
+                    <i id="op14">
+                            <img src="img/op14I.png" class="tam11 tamL tamUni ">
+    
+                    </i>
+                    <i id="op15">
+                            <img src="img/op15I.png" class="tam11 tamP tam8 ">
+    
+                    </i>
+                    <i id="op16">
+                            <img src="img/op16.png" class="tam11 tamP tam9 ">
+    
+                    </i>
+                    
+                    
+                    <button id="botonS"> 
+                            <i id="adelante" class="material-icons" style="font-size:25px;  color:black;">chevron_right</i>
+                     </button>
+                     
+
+            </div>
+        </div>
+
+        <!-- Inicio de la 2da seccion de Desarrollo-->
+        <div id="desarrollo_2">
+            
+            <h1 id="tituloD2"></h1>
+            <p id="parraP4">Algunas represetaicones para<br> la 
+                region sombreada  es:</p>
+            <div id="infoD2"></div>
+            <button id="botonA"> 
+                        <i id="atras" class="material-icons" style="font-size:25px;  color:black;">keyboard_arrow_left</i>
+                 </button>
+            <div id="P1">
+                    <canvas id="canvasP1"></canvas>
+            </div>
+            <div id="P2" style="overflow:scroll;" >
+                <i  id="op1_2">
+                   <img src="img/vacio_2.png" class="tamP2 tamD">
+                </i>
+                <i  id="op2_2">
+                    <img src="img/D2_op2.png" class="tamP_2 tamP">
+                </i>
+                <i  id="op2_3">
+                    <img src="img/D2OP3_P2.png" class="tamP_3 tamP">
+                </i>
+                <i  id="op2_4">
+                   <img src="img/D2O4_P2.PNG" class="tamP_4 tamP">
+                </i>
+                <i  id="op2_5">
+                     <img src="img/a10.png" class="tamP_5 tamP">
+                </i>
+                <i  id="op2_6">
+                     <img src="img/union2.png" class="tamP_6 tamP">
+                </i>
+                <i  id="op2_7">
+                     <img src="img/D2O7_P2.png" class="tamP_7 tamP">
+                </i>
+                <i  id="op2_8">
+                    <img src="img/D2O8_P2.png" class="tamP_8 tamP">
+                </i>
+                <i  id="op2_9">
+                    <img src="img/D2O9_P2.png" class="tamP_9 tamP">
+                </i>
+                <i  id="op2_10">
+                    <img src="img/unionC2.png" class="tamP_10 tamP">
+                </i>
+                <i  id="op2_11">
+                    <img src="img/D2O11_P2.png" class="tamP_11 tamP">
+                </i>
+                <i  id="op2_12">
+                    <img src="img/D2O12_P2.png" class="tamP_12 tamP">
+                </i>
+                <i  id="op2_13">
+                    <img src="img/D2O13_P2.png" class="tamP_13 tamP">
+                 </i>
+                 <i  id="op2_14">
+                    <img src="img/D2O14_P2.png" class="tamP_14 tamP">
+                </i>
+                <i  id="op2_15">
+                      <img src="img/D2O15_P2.png" class="tamP_15 tamP">
+                </i>
+                <i  id="op2_16">
+                    <img src="img/D2O16_P2.png" class="tamP_16 tamP">
+                </i>
+
+
+            </div>
+            <div id="P3">
+                    <canvas id="cP3"></canvas>
+            </div>
+            <div id="P4">
+                    <canvas id="cP4"></canvas>
+            </div>
+    
+        </div>
+        
+         <!-- Inicio de la Tercera parte de Motivacion-->
+        <div id="motivacion_3"> 
+
+
+       <iframe width="898" height="475" src="https://www.youtube.com/embed/BY2BxpOCgd0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="position: absolute; top:45px; left: 70px;"></iframe>
+        </div>    
+
+        <!-- Inicio de la Primera parte de Cierre -->
+        <div id="cierre_01">
+            <h1 id="tituloCierr">Algunos Diagramas de Venn - Haz click en las flechas laterales</h1>
+            <button id="Ci01" class="esC">
+                    <i id="adelante"class="material-icons" style="font-size:26px;  color:white; ">chevron_right</i>
+            </button>
+            <div id="bI">
+                <button id="izq">
+                        <i id ="atras"class="material-icons" style="font-size:28px; color: white">keyboard_arrow_left</i>
+                </button>
+            </div>
+            <div id="canvasF"></div>
+            <div id="bD">
+                    <button id="der">
+                            <i id="adelante"class="material-icons" style="font-size:28px;  color:white;">chevron_right</i>
+                    </button>
+                </div>
+
+        </div>
+
+        <!-- Inicio de la segunda parte de cierre-->
+
+        <div id="cierre_02">
+            <h1 id="ejercicioC">Primer Ejercicio</h1>
+            <button id="Ci02" class="esC">
+                    <i id="adelante"class="material-icons" style="font-size:26px;  color:white; ">chevron_right</i>
+            </button>
+            <button id="cier02" class="esR2">
+                    <i id ="atras"class="material-icons" style="font-size:26px; color: white">keyboard_arrow_left</i>
+                </button>
+            <div id="enunciado">
+                Halla las regiones que satisfacen la expresion dada
+                Para ello, colorea el diagrama haiendo click en la o
+                las casillas correspondientes.
+            </div>
+            <div id="imagenEjer"></div>
+            <div id="check">
+                A : <input type="checkbox"  id="Oa"><br>
+                B : <input type="checkbox" id="Ob"><br>
+                C : <input type="checkbox" id="Oc"><br>
+                U : <input type="checkbox" id="Uc">
+            </div>
+            <div id="res"></div>  
+            <canvas id="ven"></canvas>
+            <button id="verifica02" class="vP2 colorF"> Verifica</button>
+            <button id="resD" class="vP2 colorF"> Respuesta </button>
+            <button id="otroE" class="vP2 colorF"> Otro Ejercicio</button>
+         
+         
+        
+        
+        </div>
+
+        <!--Inicion de la tercera parte de cierre-->
+        <div id="cierre_03">
+             <!---  <button id="Ci03" class="esC">
+                        <i id="adelante"class="material-icons" style="font-size:26px;  color:white; ">chevron_right</i>
+                </button>-->
+                <button id="cier3" class="esR2">
+                    <i id ="atras"class="material-icons" style="font-size:26px; color: white">keyboard_arrow_left</i>
+                </button>
+
+                <h1 id="ti3">Segundo Ejercicio - Emparejamiento</h1>
+                <p id="instruccion">Escribe la letra correspondiente en la columna derecha</p>
+                <div id="panel3P">
+                <form action="#">
+                <table id= "tabla">
+  
+                    <tr>
+                        <td id="A2"> </td>
+                        <td ><img src="" id="leA" class="I1D"> 
+                       <td><!--<button class="b3"> verifica</button>--></td>
+                        <td><img src="" id="leB" class="I1I"> </td>
+                        <td><input value="R" type="text" class="in" id="r1"></td>
+                        
+                    </tr>
+                    <tr>
+                        <td id="BE">  </td>
+                        <td><img src="" id="leA2" class="I2D"> </td>
+                        <td><button class="b3 verificaB" id="verifica"> Verifica</button></td>
+                        <td><img src="" id="leB2" class="I2I"> </td>
+                        <td><input value="R" type="text" class="in" id="r2"></td>
+                    </tr>
+                    <tr>
+                        <td id="C">  </td>
+                        <td><img src="" id="leA3" class="I3D"></td>
+                        <td><p class="errorC" id="error">  </p></td>
+                        <td><img src="" id="leB3" class="I3I"> </td>
+                        <td><input value="R" type="text" class="in" id="r3"></td>
+                    </tr>
+                    <tr>
+                        <td id="D">  </td>
+                        <td><img src="" id="leA4" class="I4D"> 
+                       <td><!--<button class="b3"> verifica</button>--></td>
+                        <td><img src="" id="leB4" class="I4I"> </td>
+                        <td><input value="R" type="text" class="in" id="r4"></td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="E">  </td>
+                        <td><img src="" id="leA5" class="I5D">
+                        <td>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <button id="v1" class="vP1">
+                            <i id ="atras"class="material-icons" style="font-size:19px; color:white;" >keyboard_arrow_left</i>
+                        </button>&nbsp 
+                           <button  id="v2" class="vP1">
+                                <i id="adelante"class="material-icons" style="font-size:19px;  color:white; ">chevron_right</i>
+                            </button>
+                        </td>
+                        <td><img src="" id="leB5" class="I5I"> </td>
+                        <td><input value="R" type="text" class="in" id="r5"></td>
+                        </td>
+                    </tr>
+                </table>
+                </form>    
+                </div>
+
+        </div>
+
+        
+
+
+
+
+    </div>
+
+</body>
+</html>
