@@ -1,0 +1,104 @@
+/*Estilo del score*/
+.puntos{
+    width: 1090px;
+    height: 130px;
+    background-color: white;
+    position: relative;
+    color: black;
+    font-weight: lighter;
+    font-family: 'Coming Soon', cursive;
+    font-size: 70px;
+    text-align: center;
+    padding-top: 20px;
+    font-variant-ligatures: normal;
+
+}
+
+/*estilo de la cuadricula*/
+#grid{
+     
+    position: relative;
+    width: calc( 10 * 64px);
+    left : 200px;
+    bottom: 90px;
+    margin: auto; 
+
+}
+
+/*"hereda" las caracteristicas del grid y agrega a los nuevos div*/
+#grid > div{
+  
+    box-sizing:border-box;
+
+    width: 10px;
+    height: 10px;
+    float : left;
+    background-color: #2D5C37;
+    border: 1px solid black;
+  
+
+   
+}
+
+/*posicion del scroe*/
+#score{
+       
+    width: 300px;
+    position: relative;
+    top: 260px;
+    left: 90px;
+}
+/*caracteristicas de la serpiente*/
+
+#grid > .snake { 
+	background-color:#06C931;
+}
+
+/*caracteristicas de las manzanas*/
+#grid > .apple{
+    background-color: red;
+}
+
+#mensaje{
+    font-family:'Coming Soon', cursive, Geneva, Tahoma, sans-serif;
+    font-size: 37px;
+    color:black;
+    background-color: #1B95D6;
+    background-size: 20%; 
+    background-repeat: no-repeat;
+    width: 290px;
+    height: 200px;
+    left: 430px;
+    opacity: 0.8;
+    top: 160px;
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.boton_1{
+    text-decoration: none;
+    padding: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family:'Coming Soon', cursive,Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 40;
+    font-size: 18px;
+    
+    color:black;
+    background-color:#8E6DFF;
+    border-radius: 10px;
+    top:-20px;
+    
+    
+  }
+  .boton_1:hover{
+    opacity: 0.6;
+    text-decoration: none;
+  }
+
+ 
+
+
+
